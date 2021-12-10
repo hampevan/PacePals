@@ -1,38 +1,124 @@
 html {
     background-color: #b5f5c6;
+    padding-left: 200px;
+    padding-right: 200px;
+    
 }
 .wrapper {
-    left: 160px;
-    display: flex; 
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 100px 100px 100px 100px;
+    grid-gap: 10px;
+    
 }
 
 .wrapper > div {
     flex: 1;
+    padding: 10px;
+    margin: 10px;
+
 }
 .box1 {
     background-color: gold;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 15px;
 }
 .box2 {
     background-color: silver;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 15px;
 }
 .box3 {
     background-color:peru;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 15px;
 }
-.box {
-     background-color: #61ba79
+.box4 {
+     background-color: #61ba79;
+     padding-right: 15px;
+     font-size: 50px;
+     border-radius: 15px;
+}
+.box5 {
+    background-color: #61ba79;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.box7 {
+    background-color: #61ba79;
+    padding-right: 15px;
+    grid-column: 1;
+    border-radius: 15px;
+}
+.honor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15px;
+    grid-gap: 10px;
+}
+.box8 {
+    background-color: #61ba79;
+    padding-right: 15px;
+    font-size: 50px;
+    grid-column: 1;
+    border-radius: 15px;
+    
+}
+.box9 {
+    background-color: #61ba79;
+    padding-right: 15px;
+    font-size: 50px;
+    grid-column: 1;
+    border-radius: 15px;
+}
+.box10 {
+    background-color: #61ba79;
+    padding-right: 15px;
+    font-size: 50px;
+    grid-column: 1;
+    border-radius: 15px;
 }
 img {
-    width: 75px;
+    width: 200px;
+    height: 150px;
+    float: right;
 }
 .sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    top: 20;
-    left: 0;
-    background-color: #b5f5c6;
-  }
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 20;
+  left: 200px;
+  background-color: #61ba79;
+  border-radius: 15px;
+
+}
 h3 {
-    left: 50px;
     position: relative;
+    left: 80px;
+}
+em {
+    font-size: 40px;
+}
+b {
+    font-size: 35px;
+    margin-left: 5px;
+}
+ol {
+    font-size: 20px;
+    margin-top: 5px;
+    align-items: right;
+    margin: 10px;
+}
+h4 {
+    text-align: center;
+    font-size: 50px;
+    background-color:#61ba79;  
+    top: 0;
+    border-radius: 15px;
 }

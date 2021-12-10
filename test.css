@@ -1,0 +1,42 @@
+html {
+    background-color: #b5f5c6;
+    
+}
+.wrapper {
+    display: flex; 
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.wrapper > div {
+    flex: 1;
+
+}
+.box1 {
+    background-color: gold;
+    padding-right: 15px;
+}
+.box2 {
+    background-color: silver;
+}
+.box3 {
+    background-color:peru;
+}
+.box {
+     background-color: #518a60
+}
+img {
+    width: 200px;
+}
+.sidebar {
+    height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 20;
+  left: 0;
+  background-color: #518a60;
+}
+h3 {
+    left: 50px;
+    position: relative;
+}
